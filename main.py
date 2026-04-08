@@ -24,7 +24,7 @@ while True:
     #Desenhar a partir daqui
 
     #Desenhar primitivas geometricas
-    draw.rect(window, (255,0,0), (200, 300, 100, 50))
+    draw.rect(window, (0,255,0), (0, 600, 1280, 100))
     draw.circle(window, (255,255,0), (500,600), 200)
     draw.polygon(window, (205,124,201), ((200,300), (250,150), (300,300)))
     draw.line(window, (255,0,255),(100, 100),(200,200), 5)
